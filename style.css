@@ -1,0 +1,121 @@
+body {
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    margin: 0;
+    background-color: antiquewhite;
+    text-align:center; 
+    padding: 0;
+    height: 100%;
+    min-height: 100vh;
+    flex-direction: column;
+    display: flex;
+}
+
+header {
+    background-color:rgb(169, 3, 3);
+    color: rgb(251, 251, 251);
+    text-align: center;
+    width: 100%;
+    padding: 1rem;
+}
+
+    body {
+        font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    }
+    table {
+        border-collapse: collapse;
+        width: 300px;
+        margin: 20px auto;
+    }
+    th, td {
+        border: 1px solid #ccc;
+        padding: 10px;
+        text-align: center;
+    }
+    th {
+        background-color: antiquewhite;
+    }
+    .red {
+        background-color: #f400004d;
+    }
+    .green {
+        background-color: #ff53538b;
+    }
+    .blue {
+        background-color: #ff000068;
+    }
+
+img {
+    margin-top: 50px;
+    border: 1px solid #000000;
+}
+nav {
+    background-color: rgb(40, 40, 40);
+    padding: 0.5rem;
+    text-align: center;
+}
+
+nav a {
+    color: #fff;
+    text-decoration: none;
+    margin: 0 1rem;
+}
+
+section {
+    padding-bottom: 2rem;
+}
+
+footer {
+    background-color: rgb(169, 3, 3);
+    color:antiquewhite;
+    text-align: center;
+    padding: 10px;
+    margin-top: auto;
+    width: 100%;
+    bottom: 0;
+    position: flex;
+}
+
+content {
+    flex: 1;
+    padding: 20px;
+}
+form {
+    color:rgb(0, 0, 0);
+    background-color: antiquewhite;
+    text-align: center;
+    padding: 1rem;
+}
+
+.container {
+    flex: 1;
+    padding: 20px;
+}
+
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    margin-bottom: 60px;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.grid-item img {
+    max-width: 100%;
+}
+
+.flex-container {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.flex-container img {
+    margin-right: 10px;
+}

@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kontakt - Foodtruck</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="content">
+    <header>
+        <h1>Kontakt</h1>
+    </header>
+    <nav>
+        <a href="index.html">Home</a>
+        <a href="menu.html">Menü</a>
+        <a href="location.html">Unsere Standorte</a>
+        <a href="calender.html">Jahreskalender</a>
+    </nav>
+    <section>
+        <h2>Kontaktiere uns gerne bei Fragen!</h2>
+        <p>Telefon: 0157/30030060</p>
+        <p>Email: info@dohmensdöner.de</p>
+        <p>Nutze alternativ auch gerne unser Kontakformular! Wir beantworten jede Frage!</p>
+        <form action="/submit" method="post">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required><br>
+    
+            <label for="email">E-Mail:</label>
+            <input type="email" id="email" name="email" required><br>
+    
+            <label for="comments">Kommentar:</label><br>
+            <textarea id="Kommentar" name="Kommentar" rows="4" cols="50"></textarea><br>
+    
+            <input type="submit" value="Absenden">
+        </form>
+    </section>
+    </div>
+    <footer>
+        <p>&copy; 3006195 - Severin Dohmen</p>
+    </footer>
+</body>
+</html>
